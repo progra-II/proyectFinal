@@ -11,4 +11,11 @@ package proyectfinal;
  */
 public class producto {
     
+    protected int codidoProducto;
+    protected String nombreProducto;
+    protected int cantidadInicial;
+    protected double costoProducto;
+    protected double porcentajeGanancia = 0.3;
+    
+    
 }

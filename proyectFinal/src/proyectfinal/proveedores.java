@@ -9,10 +9,12 @@ package proyectfinal;
  *
  * @author brian
  */
-public class perecedero extends producto{
+public class proveedores {
     
-    private String fechaExpiracion;
-    private double temperatura;
-    private double costoAdicionalRefrigeracion;
+    private int cedulaJuridica;
+    private String razonSocial;
+    private String email;
+    private String contacto;
+    private String paginaWeb;
     
 }
