@@ -13,6 +13,21 @@ public class perecedero extends producto{
     
     private String fechaExpiracion;
     private double temperatura;
-    private double costoAdicionalRefrigeracion;
+    private final double costoAdicionalRefrigeracion = 5000;
+
+    public perecedero(String fechaExpiracion, double temperatura, int codidoProducto, String nombreProducto, int cantidadInicial, double costoProducto, double porcentajeGanancia) {
+        super(codidoProducto, nombreProducto, cantidadInicial, costoProducto, porcentajeGanancia);
+        this.fechaExpiracion = fechaExpiracion;
+        this.temperatura = temperatura;
+    }
+
+    public String getFechaExpiracion() {
+        return fechaExpiracion;
+    }
+
+    public double getTemperatura() {
+        return temperatura;
+    }
+    
     
 }
