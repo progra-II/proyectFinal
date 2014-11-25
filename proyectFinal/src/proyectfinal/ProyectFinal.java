@@ -16,12 +16,7 @@ public class ProyectFinal {
      */
     public static void main(String[] args) {
        
-        inventario inventario = new inventario ();
         
-        inventario.incluirProducto(1234, "Arroz", 5, 2000, 10);
-        inventario.incluirProducto("12/9/15", 15, 12345, "Leche", 100, 500, 2);
-        
-        System.out.println(inventario.listaProductos());
     }
     
 }
