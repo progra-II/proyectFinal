@@ -16,7 +16,6 @@ public class ProyectFinal {
      */
     public static void main(String[] args) {
         
-        //ya pude desde netbeans
        
         inventario inventario = new inventario ();
         
