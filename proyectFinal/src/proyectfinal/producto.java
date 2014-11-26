@@ -1,70 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package proyectfinal;
 
-/**
- *
- * @author brian
- */
+import java.util.ArrayList;
+
 public class producto {
-    
-    protected int codidoProducto;
+    protected String codigoProducto;
     protected String nombreProducto;
-    protected int cantidadInicial;
+    protected final int cantidadInicialProducto=0;//cambiar mas adelante
     protected double costoProducto;
-    protected double porcentajeGanancia;
-
-    public producto(int codidoProducto, String nombreProducto, int cantidadInicial, double costoProducto, double porcentajeGanancia) {
-        this.codidoProducto = codidoProducto;
-        this.nombreProducto = nombreProducto;
-        this.cantidadInicial = cantidadInicial;
-        this.costoProducto = costoProducto;
-        this.porcentajeGanancia = porcentajeGanancia;
-    }
-
-    public int getCodidoProducto() {
-        return codidoProducto;
-    }
-
-    public void setCodidoProducto(int codidoProducto) {
-        this.codidoProducto = codidoProducto;
-    }
-
-    public String getNombreProducto() {
-        return nombreProducto;
-    }
-
-    public void setNombreProducto(String nombreProducto) {
-        this.nombreProducto = nombreProducto;
-    }
-
-    public int getCantidadInicial() {
-        return cantidadInicial;
-    }
-
-    public void setCantidadInicial(int cantidadInicial) {
-        this.cantidadInicial = cantidadInicial;
-    }
-
-    public double getCostoProducto() {
-        return costoProducto;
-    }
-
-    public void setCostoProducto(double costoProducto) {
-        this.costoProducto = costoProducto;
-    }
-
-    public double getPorcentajeGanancia() {
-        return porcentajeGanancia;
-    }
-
-    public void setPorcentajeGanancia(double porcentajeGanancia) {
-        this.porcentajeGanancia = porcentajeGanancia;
-    }
-    
-    
-    
+    protected double porcentageGanancia;
+    protected ArrayList entrada = new ArrayList();
+    protected ArrayList salida = new ArrayList();
+    protected proveedor provedores;
+    protected cliente clientes;
 }
